@@ -8,6 +8,8 @@ import 'package:mall/view_model/page_state.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 
+import '../../../constant/app_colors.dart';
+
 class BrandDetailPage extends StatefulWidget {
   final titleName;
   final id;
@@ -31,6 +33,7 @@ class _BrandDetailPageState extends State<BrandDetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           title: Text(widget.titleName),
           centerTitle: true,
         ),

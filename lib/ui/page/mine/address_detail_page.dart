@@ -52,6 +52,7 @@ class _AddressDetailPageState extends State<AddressDetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           title: Text(AppStrings.ADDRESS_EDIT_TITLE),
           centerTitle: true,
         ),

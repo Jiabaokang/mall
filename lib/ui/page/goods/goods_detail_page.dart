@@ -57,6 +57,7 @@ class _GoodsDetailPageState extends State<GoodsDetailPage> {
             Widget child) {
           return Scaffold(
             appBar: AppBar(
+              backgroundColor: AppColors.COLOR_APPBAR_BG,
               title: Text(AppStrings.GOODS_DETAIL),
               centerTitle: true,
             ),

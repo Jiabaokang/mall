@@ -5,12 +5,14 @@ import 'package:mall/constant/text_style.dart';
 import 'package:mall/ui/widgets/divider_line.dart';
 import 'package:mall/ui/widgets/item_text.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:mall/constant/app_colors.dart';
 
 class AboutUsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: AppColors.COLOR_APPBAR_BG,
         title: Text(AppStrings.ABOUT_US),
         centerTitle: true,
       ),

@@ -60,6 +60,7 @@ class _FillInOrderPageState extends State<FillInOrderPage> {
   Widget _dataView(FillInOrderViewModel model) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           title: Text(AppStrings.FILL_IN_ORDER),
           centerTitle: true,
         ),

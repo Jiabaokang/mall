@@ -43,6 +43,7 @@ class _ProjectSelectionDetailViewState
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           title: Text(AppStrings.PROJECT_SELECTION_DETAIL),
           centerTitle: true,
         ),

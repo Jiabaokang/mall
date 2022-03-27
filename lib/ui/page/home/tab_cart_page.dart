@@ -16,6 +16,8 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:provider/provider.dart';
 
+import '../../../constant/app_colors.dart';
+
 class TabCartPage extends StatefulWidget {
   @override
   _TabCartPageState createState() => _TabCartPageState();
@@ -36,6 +38,7 @@ class _TabCartPageState extends State<TabCartPage> {
     return Consumer<CartViewModel>(builder: (context, model, child) {
       return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           title: Text(AppStrings.SHOP_CAR),
           centerTitle: true,
         ),

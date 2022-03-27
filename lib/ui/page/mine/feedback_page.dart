@@ -31,6 +31,7 @@ class _FeedBackPageState extends State<FeedBackPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           title: Text(AppStrings.FEED_BACK),
           centerTitle: true,
         ),

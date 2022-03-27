@@ -50,6 +50,7 @@ class _SearchGoodsPageState extends State<SearchGoodsPage> {
                 .stopRefreshOrLoadMore(_refreshController);
             return Scaffold(
               appBar: AppBar(
+                backgroundColor: AppColors.COLOR_APPBAR_BG,
                 title: _searchWidget(),
                 centerTitle: true,
                 bottom: PreferredSize(

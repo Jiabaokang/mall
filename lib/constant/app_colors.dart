@@ -16,6 +16,10 @@ class AppColors {
   static const Color COLOR_DCDCDC = Color(0xFFDCDCDC);
   static const Color COLOR_FFB24E=Color(0xFFFFB24E);
   static const Color COLOR_EAEAEA=Color(0xFFEAEAEA);
+
+  static const Color COLOR_APPBAR_BG=Colors.orange;
+
+
   static const Color COLOR_TRANSPARENT = Colors.transparent;
   static const MaterialColor themeColor = const MaterialColor(
     0xffff5722,

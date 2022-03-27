@@ -49,7 +49,7 @@ class AppStrings {
   static const String PASSWORD_HINT = "请输入密码";
   static const String ACCOUNT = "账号";
   static const String PASSWORD = "密码";
-  static const String LOGIN_WELCOME = "欢迎登录FM商城";
+  static const String LOGIN_WELCOME = "欢迎登录SuMall";
   static const String LOGIN_APP_INTRODUCE = "Flutter开发的在线商城系统";
   static const String LOGIN = "登录";
   static const String LOADING = "正在加载中...";
@@ -141,7 +141,7 @@ class AppStrings {
   static const String MINE_ABOUT_US_CONTENT =
       "SupperMall是一个企业级商城Flutter项目，整个项目采用MVVM架构设计";
   static const String MINE_ABOUT_AUTHOR_TITLE = "作者";
-  static const String MINE_ABOUT_AUTHOR = "路由新";
+  static const String MINE_ABOUT_AUTHOR = "JBK";
   static const String MINE_ABOUT_EMAIL_TITLE = "邮箱";
   static const String MINE_ABOUT_EMAIL = "jiabaokangsy@gmail.com";
   static const String MINE_ABOUT_QQ_TITLE = "QQ";

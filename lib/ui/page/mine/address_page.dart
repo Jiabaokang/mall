@@ -38,6 +38,7 @@ class _AddressViewPageState extends State<AddressViewPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           title: Text(AppStrings.MY_ADDRESS),
           centerTitle: true,
           actions: <Widget>[

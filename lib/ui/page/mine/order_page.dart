@@ -39,6 +39,7 @@ class _OrderPageState extends State<OrderPage>
         length: title.length,
         child: Scaffold(
           appBar: AppBar(
+            backgroundColor: AppColors.COLOR_APPBAR_BG,
             title: Text(AppStrings.MINE_ORDER),
             centerTitle: true,
             bottom: PreferredSize(

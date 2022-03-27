@@ -20,6 +20,7 @@ class RegisterPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.COLOR_FFFFFF,
       appBar: AppBar(
+        backgroundColor: AppColors.COLOR_APPBAR_BG,
         title: Text(AppStrings.REGISTER),
         centerTitle: true,
       ),

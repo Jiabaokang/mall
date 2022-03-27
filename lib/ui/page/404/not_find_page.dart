@@ -3,12 +3,15 @@ import 'package:mall/constant/app_colors.dart';
 import 'package:mall/constant/app_images.dart';
 import 'package:mall/constant/app_strings.dart';
 
+import '../../../constant/app_colors.dart';
+
 
 class NotFindPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           centerTitle: true,
           title: Text(AppStrings.APP_NAME),
         ),

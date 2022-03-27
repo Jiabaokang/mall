@@ -39,6 +39,7 @@ class _FootPrintPageState extends State<FootPrintPage> {
       child: Consumer<FootPrintViewModel>(builder: (context, model, child) {
         return Scaffold(
             appBar: AppBar(
+                backgroundColor: AppColors.COLOR_APPBAR_BG,
                 title: Text(AppStrings.MINE_FOOTPRINT),
                 centerTitle: true,
                 actions: [

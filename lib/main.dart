@@ -1,6 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:mall/constant/app_colors.dart';
 import 'package:mall/constant/app_strings.dart';
 import 'package:mall/router/application.dart';
@@ -20,6 +21,11 @@ void main() async {
       _cartViewModel.queryCart();
     }
   });
+  /// Android状态栏透明 splash为白色,所以调整状态栏文字为黑色
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      statusBarBrightness: Brightness.dark));
+
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider<UserViewModel>.value(value: _userViewModel),

@@ -39,6 +39,7 @@ class _HomeCategoryGoodsPageState extends State<HomeCategoryGoodsPage>
               vsync: this);
           return Scaffold(
             appBar: AppBar(
+                backgroundColor: AppColors.COLOR_APPBAR_BG,
                 title: Text(widget.title),
                 centerTitle: true,
                 bottom: PreferredSize(

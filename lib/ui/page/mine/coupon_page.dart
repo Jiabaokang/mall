@@ -38,6 +38,7 @@ class _CouponPageState extends State<CouponPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: AppColors.COLOR_APPBAR_BG,
         title: Text(AppStrings.MINE_COUPON),
         centerTitle: true,
       ),

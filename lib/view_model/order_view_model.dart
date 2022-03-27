@@ -5,12 +5,7 @@ import 'package:mall/utils/toast_util.dart';
 import 'package:mall/view_model/base_view_model.dart';
 import 'package:mall/view_model/page_state.dart';
 
-/**
- * Create by luyouxin
- * description
-    Created by $USER_NAME on 2020/10/30.
- */
-
+///订单ViewModel
 class OrderViewModel extends BaseViewModel {
   bool _canLoadMore = false;
   List<OrderEntity> _data = List();

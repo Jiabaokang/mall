@@ -1,12 +1,10 @@
 # mall
 ==========
 
-mall是基于Flutter_Mall的开源在线商城应用程序，后端基于[litemall](https://github.com/linlinjava/litemall)基础上进行开发，litemall包含了Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端感兴趣的同学可以自行研究部署，Flutter_Mall基本上包含了litemall中小程序的功能。<br>
+mall是基于[Flutter_Mall](https://github.com/youxinLu/flutter_mall)的开源在线商城应用程序，后端基于[litemall](https://github.com/linlinjava/litemall)基础上进行开发，litemall包含了Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端感兴趣的同学可以自行研究部署，Flutter_Mall基本上包含了litemall中小程序的功能。<br>
 
 Flutter_Mall_Plus 是在Flutter_Mall的基础上进行重构优化的版本，整体采用了MVVM模式，比Flutter_Mall 无论是UI还是代码可读性、维护性上都有一定的提升，Flutter_Mall已经切换在分支v1.0，以后将不再进行维护。
 
-扫码体验Flutter_Mall_Plus 安卓版本（iOS请自行下载源码进行编译）
-----------
 Flutter_Mall 已经重构完成，整体采用MVVM，页面上也进行了优化<br>
 [点击下载体验](https://www.pgyer.com/sumall)<br>
 
@@ -28,22 +26,24 @@ Flutter_Mall功能
 
 项目截图
 ------------------
-![首页](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-12-38.jpg)
-![首页](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-28-45.jpg)<br> 
-![分类](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-13-39.jpg)
-![分类商品列表](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-13-55.jpg)<br> 
-![分类商品列表](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-13-30.jpg)
-![购物车](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-17-25.jpg)<br> 
-![我的](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-19-37.jpg)
-![商品详情](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-14-26.jpg)<br> 
-![商品详情](https://github.com/youxinLu/mall/raw/master/screenshots/2020-12-28-08-14-32.jpg)
-![下单](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-15-50.jpg)<br> 
+![首页](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/首页1.png)
+![首页](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/首页2.png)<br> 
+
+![分类](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/分类1.png)
+![分类商品列表](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/分类2.png)<br> 
+
+![商品详情](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/详情1.png)
+![购物车](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/添加购物车.png)<br> 
+
+![我的](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/个人中心.png)
+![地址管理](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/地址管理.png)<br> 
+
+![商品详情](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/详情2.png)
+![优惠券](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/优惠券.png)<br> 
+
 ![我的收藏](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-20-58.jpg)
 ![我的订单](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-21-28.jpg)<br> 
-![订单详情](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-29-20.jpg)
-![地址管理](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-29-31.jpg)<br> 
-![添加地址](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-29-40.jpg)
-![我的收藏](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/2020-12-28-08-21-52.jpg)
+
         
 项目结构
 ------------------

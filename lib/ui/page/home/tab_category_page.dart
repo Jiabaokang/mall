@@ -33,6 +33,7 @@ class _TabCategoryPageState extends State<TabCategoryPage> {
       create: (_) => _tabCategoryViewModel,
       child: Scaffold(
           appBar: AppBar(
+            backgroundColor: AppColors.COLOR_APPBAR_BG,
             title: Text(AppStrings.CATEGORY),
             centerTitle: true,
             actions: <Widget>[

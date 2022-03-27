@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mall/ui/page/goods/category_goods_widget.dart';
 
+import '../../../constant/app_colors.dart';
+
 
 class CategoryGoodsPage extends StatefulWidget {
  final String _categoryName;
@@ -27,6 +29,7 @@ class _CategoryGoodsPageState extends State<CategoryGoodsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           centerTitle: true,
           title: Text(_categoryName),
         ),

@@ -37,6 +37,7 @@ class _TabHomePageState extends State<TabHomePage>
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: AppColors.COLOR_APPBAR_BG,
           actions: [
             IconButton(
               icon: Icon(

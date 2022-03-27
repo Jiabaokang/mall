@@ -38,6 +38,7 @@ class _OrderDetailPageState extends State<OrderDetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: AppColors.COLOR_APPBAR_BG,
         title: Text(AppStrings.MINE_ORDER_DETAIL),
         centerTitle: true,
       ),

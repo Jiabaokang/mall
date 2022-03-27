@@ -27,14 +27,15 @@ class _TabMinePageState extends State<TabMinePage> {
   Widget _contentWidget() {
     return Consumer<UserViewModel>(
         builder: (BuildContext context, UserViewModel model, Widget child) {
-          print("");
+      print("");
       return Stack(children: [
         Container(
             height: ScreenUtil().setHeight(AppDimens.DIMENS_600) +
                 MediaQuery.of(context).padding.top,
             decoration: BoxDecoration(
                 gradient: LinearGradient(
-                    colors: [AppColors.COLOR_FFB24E, AppColors.COLOR_FF5722]),
+                    colors: [AppColors.COLOR_FFB24E, AppColors.COLOR_FF5722],
+                    begin: Alignment.topCenter),
                 color: AppColors.COLOR_FF5722,
                 borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(
@@ -390,5 +391,4 @@ class _TabMinePageState extends State<TabMinePage> {
           );
         });
   }
-
 }

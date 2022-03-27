@@ -12,6 +12,7 @@ class SubmitSuccessPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: AppColors.COLOR_APPBAR_BG,
         title: Text(AppStrings.SUBMIT_SUCCESS),
         centerTitle: true,
       ),

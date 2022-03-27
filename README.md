@@ -40,6 +40,9 @@ Flutter_Mall功能
 
 ![商品详情](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/详情2.png)
 ![优惠券](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/优惠券.png)<br> 
+
+![注册登录](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/注册登录.png)
+![优惠券](https://raw.githubusercontent.com/Jiabaokang/mall/main/screenshot/订单.png)<br>
  
 
         
